@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Установить зависимости
-        run: npm install --production
+        run: npm install jest
       - name: Дать разрешения
         run: chmod +x ./node_modules/.bin/jest
       - name: Запустить тесты
