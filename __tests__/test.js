@@ -5,7 +5,7 @@ test('adds a + b to equal ab', () => {
   expect(ConcSum("a", "b")).toBe("ab"); 
 }); 
 
-test('adds 5 + 3 to equal 8', () => {
+test('adds Simple + Site to equal Simple Site', () => {
   expect(ConcSum("Simple", " Site")).toBe("Simple Site");
 }); 
 
