@@ -10,10 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Clear cache
-        run: |
-          echo "Clearing cache..."
-          rm -rf node_modules
       - name: Установить зависимости
         run: npm install
       - name: Дать разрешения
