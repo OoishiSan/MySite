@@ -12,10 +12,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Установить зависимости
         run: npm install
-      - name: Clear cache
-        run: |
-          echo "Clearing cache..."
-          rm -rf node_modules
+     #- name: Clear cache
+     #  run: |
+     #    echo "Clearing cache..."
+     #    rm -rf node_modules
       - name: Дать разрешения
         run: chmod +x ./node_modules/.bin/jest
       - name: Запустить тесты
