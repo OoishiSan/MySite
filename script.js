@@ -1,6 +1,6 @@
 
  function ConcSum(a, b) {
-    return a + b1;
+    return a + b + 5;
   }
 
   module.exports = ConcSum;
